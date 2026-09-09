@@ -5,6 +5,8 @@
 **System Classification:** GAMP 5 Category 5 (Custom Software)  
 **Assurance Model:** Computer Software Assurance (CSA)
 
+> **Delivery Documentation**: See [PROJECT_CHRONICLE_DELIVERY_REPORT.md](./PROJECT_CHRONICLE_DELIVERY_REPORT.md) for full architecture specifications, 21 CFR Part 11 compliance evidence, quality gate metrics (97.09% coverage), and operational guides.
+
 This repository contains the production code, validation suites, and deployment configurations for the **Enterprise AI Workflow Manager (Project Chronicle)**.
 
 ---
