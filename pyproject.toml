@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "ai-workflow-manager-backend"
+version = "1.14.12"
+description = "Enterprise multi-agent GxP-compliant workflow backend"
+authors = ["Dave Barbour <david.barbour@msd.com>"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "I", "S", "T"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S101"] # Allow assert statements in tests
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+ignore_missing_imports = true
+warn_unused_configs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+pythonpath = ["."]
+addopts = "--strict-markers"
+

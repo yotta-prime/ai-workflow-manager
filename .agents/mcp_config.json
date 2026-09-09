@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "ai-workflow-mcp-server": {
+      "command": "python",
+      "args": [
+        "mcp_server.py"
+      ],
+      "env": {
+        "ENV": "development",
+        "APP_BRANCH": "A.14.12",
+        "PYTHONPATH": "."
+      }
+    }
+  }
+}
